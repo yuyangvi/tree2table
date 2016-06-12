@@ -1,7 +1,8 @@
 # tree2table
-======
+=====
 make an dyadic array with colspan and rowspan from a tree, so you can easily display a table view to describe a tree structure.
-
+这个模块是用来将一个任意的树形结构体转换成表格的工具。
+它会计算出每个节点所需要的跨行跨列数，并将其按表格的要求格式生成二维数组。
 Usage
 -----
 ```sh
