@@ -1,12 +1,15 @@
 # tree2table
+======
 make an dyadic array with colspan and rowspan from a tree, so you can easily display a table view to describe a tree structure.
 
 Usage
+-----
 ```sh
 npm install tree2table --save
 ```
 
 example
+-----
 ``` javascript
 var schema = {
   name: 'Sue',
@@ -30,6 +33,7 @@ var result = tree2table(schema);
 console.log(result);
 ```
 result
+-----
 ```
 [ [ { trace: 'name', colspan: 3, rowspan: 1 } ],
   [ { trace: 'personal', colspan: 1, rowspan: 5 },
@@ -43,6 +47,7 @@ result
     { trace: 'degree', colspan: 1, rowspan: 1 } ],
   [ { trace: 'CA', colspan: 1, rowspan: 1 } ] ]
 ```  
+####at last you get this:
 <table>
 <tbody>
 <tr><td colspan="3">name</td></tr>
