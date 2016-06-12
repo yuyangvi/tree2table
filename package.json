@@ -1,0 +1,24 @@
+{
+  "name": "tree2table",
+  "version": "1.0.0",
+  "description": "make an dyadic array with colspan and rowspan from a tree, so you can easily display a table view to describe a tree structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyangvi/tree2table.git"
+  },
+  "keywords": [
+    "tree",
+    "table",
+    "nodejs"
+  ],
+  "author": "yuyangvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuyangvi/tree2table/issues"
+  },
+  "homepage": "https://github.com/yuyangvi/tree2table#readme"
+}
