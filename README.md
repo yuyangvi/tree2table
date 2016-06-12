@@ -43,3 +43,15 @@ result
     { trace: 'degree', colspan: 1, rowspan: 1 } ],
   [ { trace: 'CA', colspan: 1, rowspan: 1 } ] ]
 ```  
+<table>
+<tbody>
+<tr><td colspan="3">name</td></tr>
+<tr><td rowspan="5">personal</td><td colspan="2">birthday</tr>
+<tr><td colspan="2">gender</td></tr>
+<tr><td rowspan="3">contact</td><td>address</td></tr>
+<tr><td>zipcode</td></tr>
+<tr><td>mobile</td></tr>
+<tr><td colspan="2" rowspan="2">education</td><td>degree</td></tr>
+<tr><td>CA</td></tr>
+</tbody>
+</table>
